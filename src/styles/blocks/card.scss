@@ -1,0 +1,13 @@
+@use '../utils/variables.scss' as *;
+
+.card {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: $main-text-color;
+  background-color: #fff;
+  width: 200px;
+  height: 408px;
+  padding-top: 32px;
+  border-radius: 8px;
+}
