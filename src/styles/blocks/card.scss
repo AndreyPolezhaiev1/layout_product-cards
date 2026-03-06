@@ -1,9 +1,13 @@
 @use '../utils/variables.scss' as *;
 
+body {
+  margin: 0;
+}
+
 .card {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: $main-text-color;
   background-color: #fff;
   width: 200px;
